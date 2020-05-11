@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+        <title>Exercicio 1 - formulário</title>
+
+    </head>
+
+    <body>
+       
+        <h1>Deixe um comentário</h1>
+
+        <form action="/Formulario.html">
+            
+            <input type=hidden name="recipient" value="antonioeduardo31211@gmail.com">
+            <label for="Pnome" >Nome:</label></br>
+            <input type="text" id="Pnome" name="Pnome" placeholder="Digite seu nome" style= "width: 700px"> </br>
+            <label for="Email">E-mail:</label></br>
+            <input type="email" id="Email" name="Email" placeholder="Digite seu email" style="width: 700px"></br>
+            <label for="Texto">Website:</label></br>
+            <input type="text" id="Texto" name="Texto" placeholder="Digite seu Website" style="width: 700px">
+        
+        </form>
+
+        <label for="Mensagem">Comentário:</label> </br>
+        <textarea name="Mensagem" rows="5" placeholder="Deixe seu comentário!" style= "width: 700px"></textarea></br>                
+  
+        <h3>Observação: Seu comentário será publicado após passar pelo moderador</h3>
+
+        <input id="botao"  type="button" value="Enviar comentário" style="width: 120px;" onclick="alert(' Comentário Enviado '); return true ">
+          
+    </body>
+</html>
